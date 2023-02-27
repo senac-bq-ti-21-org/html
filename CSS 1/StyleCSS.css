@@ -1,0 +1,21 @@
+p {
+    color: white;
+    background-color: blue;
+}
+h1 {
+    color: crimson; background-color: black; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: oblique;
+}
+h2 {
+    color: gold; background-color: darkgreen; 
+    font-family: serif;font-style: italic; 
+    text-align: center;
+}
+h5 {
+    line-height: 3px; 
+    letter-spacing: 3px; 
+    word-spacing: 5px; 
+    text-indent: 30px;
+    background-image: url(ti_organizacao.png);
+}

@@ -19,3 +19,9 @@ h5 {
     text-indent: 30px;
     background-image: url(ultra_designs.png);
 }
+body {
+    background-image: url(nyan_cat.gif), url(ultra_designs.png);
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    background-size: auto, 100%;
+}

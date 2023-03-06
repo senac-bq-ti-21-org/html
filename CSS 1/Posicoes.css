@@ -1,0 +1,14 @@
+.quadrado {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+}
+.absoluto {
+    position: absolute;
+	background-color: brown;
+    top: 20px;
+    right: 30px;
+}
+.relativo {
+	position: relative;
+}

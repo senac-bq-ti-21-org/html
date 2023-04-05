@@ -1,0 +1,72 @@
+/* Seletor de irmãos simples.
+h2 ~ p {
+    color: blue;
+}
+*/
+/* Seletor de irmãos adjacentes.
+h2 + p {
+    color: blue;
+}
+*/
+/* Seletor de irmãos direto.
+h2 > p {
+    color: blue;
+}
+*/
+
+/* Seletor de negação. 
+p:not(#especial) {
+    color: blue;
+}
+*/
+
+/* Alteração da primeira letra. */
+p:first-letter {
+    font-size: 200%;
+}
+
+
+/* Primeiro da lista. */
+li:first-child {
+    color: turquoise;
+}
+
+
+/* Ultimo da lista. */
+li:last-child {
+    color: purple;
+}
+
+
+/* Certa posição da lista (no caso todos os par). */
+li:nth-child(2n) {
+    color: red;
+}
+
+
+/* Alteração ao passar o mouse. */
+li:hover {
+    display: table;
+    background-color: rgba(153, 205, 50, 0.5);
+}
+a:hover {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+
+/* Alteração ao clicar. */
+a:active {
+    background-color: rgba(220, 20, 60, 0.5);
+}
+
+
+/* Altera a cor dos links não visitado. */
+a:link {
+    color: darkgreen;
+}
+
+
+/* Altera a cor dos links visitados. */
+a:visited {
+    color: brown;
+}

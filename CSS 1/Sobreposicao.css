@@ -1,0 +1,14 @@
+.conteiner-img {
+  position: relative;
+  width: 476px;
+}
+
+.texto {
+  position: absolute;
+  color: #ffffff;
+  background-color: #00000080;
+  bottom: 0;
+  width: inherit;
+  text-align: center;
+  font-size: 60px;
+}
